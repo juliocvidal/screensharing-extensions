@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://localhost/*", "https://*.collaborate.org/*" ]
+   } ],
+   "description": "Screensharing utility for collaborate.org meetings",
+   "externally_connectable": {
+      "matches": [ "https://localhost/*", "https://*.collaborate.org/*" ]
+   },
+   "icons": {
+
+   },
+   "manifest_version": 2,
+   "name": "Screensharing Extension",
+   "permissions": [ "desktopCapture" ],
+   "version": "0.0.1"
+}
